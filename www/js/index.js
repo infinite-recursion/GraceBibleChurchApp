@@ -16,6 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+ 
+ //Code created by Cordova
 var app = {
     // Application Constructor
     initialize: function() {
@@ -46,24 +49,24 @@ var app = {
 };
 
 app.initialize();
+//End code created by Cordova
 
 
-
-
-
-
-
-// A $( document ).ready() block.
+// Code inside here gets called once the HTML has loaded
 $( document ).ready(function() {
     
     
 
- //Logic for the carousel: setting each carousel
- //item to take up the entire screen
+ //Logic for the carousel: The carousel (from Bootstrap library) is the container that holds are the cards
+ //The carousel is what provides the arrows that let you go from one card to the next, as well
+ //as allowing you to swipe to get to the next card
  var $item = $('.carousel-item'); 
  var $wHeight = $(window).height();
+ //Set the first item in the carousel to be the first one that displays
  $item.eq(0).addClass('active');
+ //Set the height of each carousel item: will set the height to be the entire height of screen
  $item.height($wHeight); 
+ //The full-screen css class is in index.css
  $item.addClass('full-screen');
 
  //Set each carousel item to take up
@@ -74,20 +77,29 @@ $( document ).ready(function() {
    $item.height($wHeight);
  });
 
- //Setting up the cards
+ //Setting up the cards:
+
+ //Get the first card
  var card1 = document.getElementById('card1');
  
- //Add listener so that the card will flip when it is clicked on
+ //Add listener so the first card so that it will flip when it is clicked on
  card1.addEventListener( 'click', function() {
+
+    //Get the front of the card and toggle whether or not it should be displayed. By default
+    //The front of the card is displayed
      var cardFront = card1.querySelector('.card-front');
      cardFront.classList.toggle('is-flipped');
+
+     //Get the back of the card and toggle whether or not it should be displayed.
      var cardBack = card1.querySelector('.card-back');
      cardBack.classList.toggle('is-flipped');
      
      });
 
+  //Get the second card
  var card2 = document.getElementById('card2');
  
+ //Add listener to the second card so that it will flip when it is clicked on. Same logic as the first card
  card2.addEventListener( 'click', function() {
      var cardFront = card2.querySelector('.card-front');
      cardFront.classList.toggle('is-flipped');
@@ -96,8 +108,10 @@ $( document ).ready(function() {
      
      });
 
+ //Get the third card
  var card3 = document.getElementById('card3');
  
+  //Add listener to the third card so that it will flip when it is clicked on. Same logic as the first card
  card3.addEventListener( 'click', function() {
      var cardFront = card3.querySelector('.card-front');
      cardFront.classList.toggle('is-flipped');
@@ -106,8 +120,10 @@ $( document ).ready(function() {
      
      });
 
+ //Get the foruth card
  var card4 = document.getElementById('card4');
 
+  //Add listener to the fourth card so that it will flip when it is clicked on. Same logic as the first card
  card4.addEventListener( 'click', function() {
      var cardFront = card4.querySelector('.card-front');
      cardFront.classList.toggle('is-flipped');
