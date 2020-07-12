@@ -43,24 +43,26 @@
     </head>
     <body>
         <div class="container">
-            <!-- <div class="row">
-                <div class="col-sm-12">
-                    <div class="scene scene--card">
-                        <div class="card">
-                          <div class="card__face card__face--front">front More test more test more test.</div>
-                          <div class="card__face card__face--back">Heaven. 1 John 5:13. More test more test more test.</div>
-                        </div>
-                      </div>
-                </div>
+          
 
+            <br />
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item">
 
-                
-      
-            </div> -->
+                    <!-- The flash card-->
+                    <div id='card1' class="h-100 card card-flip">
 
-            <div class="row">
-                <div class="col-sm-12">
-                    <div id='card1' class="card card-flip h-100">
+                        <!--The front of the card-->
                         <div class="card-front text-white bg-warning">
                             <div class="card-body">
                                 <i class="fa fa-search fa-5x float-right"></i>
@@ -68,6 +70,7 @@
                                 <p class="card-text"></p>
                             </div>
                         </div>
+                        <!--The back of the card-->
                         <div class="card-back text-white bg-warning">
                             <div class="card-body">
                                 <h3 class="card-title">Heaven</h3>
@@ -75,8 +78,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12">
+                      
+                    <!--Displays a caption if you want one-->
+                    <!-- <div class="carousel-caption d-md-block">
+                      <h5>First Image</h5>
+                    </div> -->
+                  </div>
+                  <div class="carousel-item">
+
+                    <!--The flash card-->
                     <div id='card2' class="card card-flip h-100">
                         <div class="card-front text-white bg-dark">
                             <div class="card-body">
@@ -92,8 +102,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12">
+
+                    <!--Displays a caption if you want one-->
+                    <!-- <div class="carousel-caption d-md-block">
+                      <h5>Second Image</h5>
+                    </div> -->
+                  </div>
+                  <div class="carousel-item">
+
                     <div id='card3' class="card card-flip h-100">
                         <div class="card-front text-white bg-danger">
                             <div class="card-body">
@@ -109,8 +125,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12">
+                    
+                    <!--Displays a caption if you want one-->
+                   <!--  <div class="carousel-caption d-md-block">
+                      <h5>Third Image</h5>
+                    </div> -->
+                  </div>
+
+                  <div class="carousel-item">
+
                     <div id='card4' class="card card-flip h-100">
                         <div class="card-front bg-white">
                             <div class="card-body">
@@ -126,8 +149,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12">
+                    
+                    <!--Displays a caption if you want one-->
+                   <!--  <div class="carousel-caption d-md-block">
+                      <h5>Third Image</h5>
+                    </div> -->
+                  </div>
+
+                  <div class="carousel-item">
+
                     <div id='card5' class="card card-flip h-100">
                         <div class="card-front text-white bg-success">
                             <div class="card-body">
@@ -143,15 +173,35 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <!--Displays a caption if you want one-->
+                   <!--  <div class="carousel-caption d-md-block">
+                      <h5>Third Image</h5>
+                    </div> -->
+                  </div>
                 </div>
-            </div>
+
+
+                <!-- Controls -->
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+              </a>
+              </div>
+
         </div>
+
+
 
 
         <script type="text/javascript" src="cordova.js"></script>
         
         <script type="text/javascript" src="js/jQuery/jquery-3.4.1.min.js"></script>
-        <script type="text/javascript" src="js/popper-2.0.6/popper.min.js.min.js"></script>
+        <script type="text/javascript" src="js/popper-2.0.6/popper.min.js"></script>
         <script type="text/javascript" src="js/bootstrap-4.4.1/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         
