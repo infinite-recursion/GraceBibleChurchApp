@@ -70,17 +70,46 @@ $( document ).ready(function() {
  //Set the first item in the carousel to be the first one that displays
  $item.eq(0).addClass('active');
  //Set the height of each carousel item: will set the height to be the entire height of screen
- $item.height($wHeight-$menuHeight); 
- //The full-screen css class is in index.css
- $item.addClass('full-screen');
+ $item.eq(0).height($wHeight-$menuHeight); 
+ //The full-screen css class is in romansRoad.css
+ $item.eq(0).addClass('full-screen');
 
- //Set each carousel item to take up
+ $item.eq(1).height($wHeight-$menuHeight); 
+ $item.eq(1).addClass('full-screen');
+ $item.eq(2).height($wHeight-$menuHeight); 
+ $item.eq(2).addClass('full-screen');
+ $item.eq(3).height($wHeight-$menuHeight); 
+ $item.eq(3).addClass('full-screen');
+ $item.eq(4).height($wHeight-$menuHeight); 
+ $item.eq(4).addClass('full-screen');
+ $item.eq(5).height($wHeight-$menuHeight); 
+ $item.eq(5).addClass('full-screen');
+ $item.eq(6).height($wHeight-$menuHeight); 
+ $item.eq(6).addClass('full-screen');
+ $item.eq(7).height($wHeight-$menuHeight); 
+ $item.eq(7).addClass('full-screen');
+
+ //The last item (item 8, the romans summary), will have a height
+ //that is equal to the amount of content, which is why
+ //the height isn't explicitly set like the other cards. This is done because
+ //setting it to be the height of the screen may cause the content
+ //to not all display since the amount of content is more than the size of the
+ //screen
+
+ //Set each carousel item (except the romans summary, item 8) to take up
  //screen if the orientation of the screen changes
  //(for example, someone rotating the phone to make it horziontal instead of vertical)
  $(window).on('resize', function (){
    $wHeight = $(window).height();
-   $item.height($wHeight-$menuHeight);
- });
+   $item.eq(0).height($wHeight-$menuHeight); 
+   $item.eq(1).height($wHeight-$menuHeight); 
+   $item.eq(2).height($wHeight-$menuHeight); 
+   $item.eq(3).height($wHeight-$menuHeight); 
+   $item.eq(4).height($wHeight-$menuHeight); 
+   $item.eq(5).height($wHeight-$menuHeight); 
+   $item.eq(6).height($wHeight-$menuHeight); 
+   $item.eq(7).height($wHeight-$menuHeight); 
+});
 
  //Setting up the cards:
 

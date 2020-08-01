@@ -153,4 +153,9 @@ CSS for the Bootstrap cards: the cards in the Carousel that flip when you tap on
     transform: rotateY(0deg);
   } 
 
+/*For making background color of card gray */
+  .bg-gray{
+    background-color: #A7A7A7;  
+  }
+
   
