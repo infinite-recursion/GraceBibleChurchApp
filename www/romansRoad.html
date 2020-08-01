@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!--<meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">-->
+
+        <!--For Bootstrap-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap-4.4.1/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="css/romansRoad.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="menu">
+                <a class="navbar-brand" href="#">GBCS Witness App</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="wordless.html">Wordless App</a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Romans Road<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="romansRoadSummary.html">Romans Road Summary</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class="container">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+
+                    <!-- The flash card-->
+                    <div id='card1' class="card card-flip h-100">
+
+                        <!--The front of the card-->
+                        <div class="card-front text-white bg-warning">
+                            <div class="card-body">
+                                <h3 class="card-title">1</h3>
+                                <p class="card-text">1. If you were to die today, are you 100% 
+                                    sure you would go to Heaven?
+                                    <br />
+                                    2. If you were to die today and stood before God, he asked you why I should let you into my  Heaven. What would you say ?
+                                </p>
+                            </div>
+                        </div>
+                        
+                     
+                            
+                  
+                    </div>
+                      
+                    <!--Displays a caption if you want one-->
+                    <!-- <div class="carousel-caption d-md-block">
+                      <h5>First Image</h5>
+                    </div> -->
+                  </div>
+                  <div class="carousel-item">
+
+                    <!--The flash card-->
+                    <div id='card2' class="card card-flip h-100">
+                        <div class="card-front text-white bg-warning">
+                            <div class="card-body">
+                                <h3 class="card-title">2</h3>
+                                <p class="card-text">1 John 5:13:
+                                    <br />
+                                    “I write these things to you who believe in the name of God so that you may know that you have eternal life.“
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Displays a caption if you want one-->
+                    <!-- <div class="carousel-caption d-md-block">
+                      <h5>Second Image</h5>
+                    </div> -->
+                  </div>
+                  <div class="carousel-item">
+
+                    <div id='card3' class="card card-flip h-100">
+                        <div class="card-front text-white bg-warning">
+                            <div class="card-body">
+                                <h3 class="card-title">3</h3>
+                                <p class="card-text">Romans 3:10:
+                                    <br />
+                                    “As it is written there is no one righteous, not even one;”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Displays a caption if you want one-->
+                   <!--  <div class="carousel-caption d-md-block">
+                      <h5>Third Image</h5>
+                    </div> -->
+                  </div>
+
+                  <div class="carousel-item">
+
+                    <div id='card4' class="card card-flip h-100">
+                        <div class="card-front text-white bg-warning">
+                            <div class="card-body">
+                                <h3 class="card-title">4</h3>
+                                <p class="card-text">Romans 3:23:
+                                    <br />
+                                    “For all have sinned and fall short of the glory of God ”
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Displays a caption if you want one-->
+                   <!--  <div class="carousel-caption d-md-block">
+                      <h5>Third Image</h5>
+                    </div> -->
+                  </div>
+
+                  <div class="carousel-item">
+
+                    <div id='card5' class="card card-flip h-100">
+                        <div class="card-front text-white bg-warning">
+                            <div class="card-body">
+                                <h3 class="card-title">5</h3>
+                                <p class="card-text">Romans 5:12:
+                                    <br />
+                                    “Therefore, just as sin entered the world through one man, and death through sin, and in this way,  death came to all people, because all sinned”
+                                </p>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div id='card6' class="card card-flip h-100">
+                        <div class="card-front text-white bg-warning">
+                            <div class="card-body">
+                                <h3 class="card-title">6</h3>
+                                <p class="card-text">Romans 6:23:
+                                    <br />
+                                    “For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord”
+                                    <br />
+                                    Romans 5:8:
+                                    <br />
+                                    “But God demonstrates his own love for us in this: while we were still sinners, Christ died for us.”
+                                </p>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div id='card7' class="card card-flip h-100">
+                        <div class="card-front text-white bg-warning">
+                            <div class="card-body">
+                                <h3 class="card-title">7</h3>
+                                <p class="card-text">1. Do you admit, you’re a sinner?
+                                    <br />
+                                    2. Do you understand that sin separates you from God, now and in eternity?
+                                    <br />
+                                    3. Do you believe Jesus died on the cross for your sins?
+                                    <br />
+                                    4. Would you like to be forgiven of all your sins and know 100% you are going to Heaven?
+                                </p>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div id='card8' class="card card-flip h-100">
+                        <div class="card-front text-white bg-warning">
+                            <div class="card-body">
+                                <h3 class="card-title">8</h3>
+                                <p class="card-text">Romans 10:9-13:
+                                    <br />
+                                    <b>9</b> If you declare with your mouth, “Jesus is Lord,” and believe in your heart that God raised him from the dead, you will be saved. <b>10</b> 
+                                    For it is with your heart that you believe and are justified, and it is with your mouth that you profess your faith and are saved. 
+                                    <b>11</b> As Scripture says, “Anyone who believes in him will never be put to shame.” 
+                                    <b>12</b> For there is no difference between Jew and Gentile—the same Lord is Lord of all and richly blesses all who call on him, 
+                                    <b>13</b> for, “Everyone who calls on the name of the Lord will be saved.”
+                                    <br />
+                                    Prayer of salvation:
+                                    <br />
+                                    “Dear Jesus/I know I am a sinner/I believe you died for my sins/ and God raised you from the dead/ Forgive me of all my sins;/come into my heart today / and live forever./ Give me a home in Heaven when I die./Help me to obey you./I mean this prayer/with all my heart!”
+
+                                </p>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+
+
+                <!-- The Carousel Controls: Displays the "forward" and "backward" arrows -->
+
+            <!--The "forward" arrow-->
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+
+              <!--The "backwards" arrow -->
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+              </a>
+              </div>
+
+        </div>
+
+
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+        
+        <script type="text/javascript" src="js/jQuery/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/popper-2.0.6/popper.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap-4.4.1/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/romansRoad.js"></script>
+        
+    </body>
+</html>
