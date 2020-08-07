@@ -155,7 +155,17 @@ CSS for the Bootstrap cards: the cards in the Carousel that flip when you tap on
 
 /*For making background color of card gray */
   .bg-gray{
-    background-color: #A7A7A7;  
+    background-color: #F5F5F5;  
+  }
+
+  /*
+  Causes the text to be centered in the middle
+  of the card
+  */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   

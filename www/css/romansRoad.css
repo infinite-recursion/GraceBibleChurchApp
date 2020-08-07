@@ -153,4 +153,19 @@ CSS for the Bootstrap cards: the cards in the Carousel that flip when you tap on
     transform: rotateY(0deg);
   } 
 
+  /*
+  Causes the text to be centered in the middle
+  of the card
+  */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*For making romans road card summary pink */
+  .bg-pink{
+    background-color: #FFB6C1;  
+  }
+
   
