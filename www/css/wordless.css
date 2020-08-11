@@ -121,6 +121,9 @@ CSS for the Bootstrap cards: the cards in the Carousel that flip when you tap on
 */
 .card-flip > div {
     backface-visibility: hidden;
+    /* Note: For some reason backface-visibility doesn't
+    work in safari/ios, so have to use the webkit version*/
+    -webkit-backface-visibility: hidden;
     transition: transform 300ms;
     transition-timing-function: linear;
     width: 100%;
