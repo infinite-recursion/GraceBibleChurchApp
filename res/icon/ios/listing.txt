@@ -1,0 +1,40 @@
+ Volume in drive C is Windows
+ Volume Serial Number is D89E-A059
+
+ Directory of C:\Users\jbree\Documents\Freelance\GraceBibleChurchApp\ScriptureApp\res\icon\ios
+
+08/28/2020  09:56 PM    <DIR>          .
+08/28/2020  09:56 PM    <DIR>          ..
+08/28/2020  09:52 PM             3,273 Icon-100.png
+08/28/2020  09:52 PM            55,019 Icon-1024.png
+08/28/2020  09:52 PM             3,706 Icon-114.png
+08/28/2020  09:52 PM             3,845 Icon-120.png
+08/28/2020  09:52 PM             4,069 Icon-128.png
+08/28/2020  09:52 PM             4,521 Icon-144.png
+08/28/2020  09:52 PM             4,822 Icon-152.png
+08/28/2020  09:52 PM               792 Icon-16.png
+08/28/2020  09:52 PM             5,036 Icon-167.png
+08/28/2020  09:52 PM             5,207 Icon-172.png
+08/28/2020  09:52 PM             5,328 Icon-180.png
+08/28/2020  09:52 PM             5,806 Icon-196.png
+08/28/2020  09:52 PM               913 Icon-20.png
+08/28/2020  09:52 PM             8,065 Icon-256.png
+08/28/2020  09:52 PM             1,279 Icon-29.png
+08/28/2020  09:52 PM             1,402 Icon-32.png
+08/28/2020  09:52 PM             1,717 Icon-40.png
+08/28/2020  09:52 PM             2,097 Icon-48.png
+08/28/2020  09:52 PM             2,162 Icon-50.png
+08/28/2020  09:52 PM            19,168 Icon-512.png
+08/28/2020  09:52 PM             2,091 Icon-55.png
+08/28/2020  09:52 PM             2,181 Icon-57.png
+08/28/2020  09:52 PM             2,082 Icon-58.png
+08/28/2020  09:52 PM             2,367 Icon-60.png
+08/28/2020  09:52 PM             2,374 Icon-64.png
+08/28/2020  09:52 PM             2,625 Icon-72.png
+08/28/2020  09:52 PM             2,791 Icon-76.png
+08/28/2020  09:52 PM             2,861 Icon-80.png
+08/28/2020  09:52 PM             2,886 Icon-87.png
+08/28/2020  09:52 PM             3,136 Icon-88.png
+08/28/2020  09:56 PM                 0 listing.txt
+              31 File(s)        163,621 bytes
+               2 Dir(s)  900,598,054,912 bytes free
