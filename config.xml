@@ -41,7 +41,10 @@
         <!--The purpose of this is to cause Cordova to use WKWebView instead of UIWebView.
         UIWebView is deprecated, and Apple will reject the app if it is used. 
         Need to run the following command in terminal to install the cordova-plugin-wkwebview-engine:
-        cordova plugin add cordova-plugin-wkwebview-engine
+        cordova plugin add cordova-plugin-wkwebview-engine. 
+        Or, can use cordova ios version 5.1.1 by running the following commands:
+        1. cordova platform remove ios
+        2. cordova platform add ios@5.1.1
         See https://cordova.apache.org/howto/2020/03/18/wkwebviewonly.html
         -->
 
