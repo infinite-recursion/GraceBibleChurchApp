@@ -22,3 +22,5 @@ to modify this since our app isn't going to need any plugins as we will not be d
 
 To credit the icon used for the app:
 Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+Currently using Cordova ios 5.1.1.
