@@ -26,6 +26,8 @@
             xxhdpi  : 144x144 px
             xxxhdpi : 192x192 px
         -->
+
+        <!--Note: do not rename the names of these icons, or will get a build error when running "cordova build android" command-->
         <icon src="res/icon/android/Icon-36-ldpi.png" density="ldpi" />
         <icon src="res/icon/android/Icon-48-mdpi.png" density="mdpi" />
         <icon src="res/icon/android/Icon-72-hdpi.png" density="hdpi" />
